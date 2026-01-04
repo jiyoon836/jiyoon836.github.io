@@ -72,6 +72,11 @@ section h2 {
   margin-bottom: 60px;
 }
 
+.profile-image {
+  flex-shrink: 0;
+  align-self: flex-start;
+}
+
 .profile-image img {
   width: 400px;
   height: auto;
