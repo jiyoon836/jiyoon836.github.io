@@ -73,7 +73,6 @@ section h2 {
 }
 
 .profile-image img {
-  max-height: 20px;
   width: auto;
   height: auto;
   object-fit: contain;
