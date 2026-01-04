@@ -73,9 +73,8 @@ section h2 {
 }
 
 .profile-image img {
-  max-height: 220px;
   width: auto;
-  height: auto;
+  height: 700;
   object-fit: contain;
   border-radius: 12px;
   background-color: #f8f8f8;
