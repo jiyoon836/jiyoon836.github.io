@@ -75,16 +75,18 @@ section h2 {
 .profile-image {
   flex-shrink: 0;
   align-self: flex-start;
+  outline: 3px solid red;
 }
 
 .profile-image img {
-  max-height: 400px;
+  max-height: 220px;
   width: auto;
   height: auto;
   object-fit: contain;
   border-radius: 12px;
   background-color: #f8f8f8;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  outline: 3px solid blue;
 }
 
 .profile-text h2 {
