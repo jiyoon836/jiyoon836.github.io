@@ -39,6 +39,14 @@ body {
   text-decoration: none;
 }
 
+.affiliation {
+  margin-top: 6px;
+  margin-bottom: 12px;
+  font-size: 0.95rem;
+  color: var(--sub-color);
+  line-height: 1.4;
+}
+
 .container {
   max-width: 900px;
   margin: 0 auto;
@@ -55,6 +63,42 @@ section h2 {
   border-bottom: 2px solid var(--accent);
   padding-bottom: 6px;
   margin-bottom: 20px;
+}
+
+.profile {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.profile-image img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.profile-text h2 {
+  margin-bottom: 12px;
+}
+
+.profile-text p {
+  color: var(--sub-color);
+  font-size: 1rem;
+  max-width: 600px;
+}
+
+@media (max-width: 768px) {
+  .profile {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .profile-text p {
+    max-width: 100%;
+  }
 }
 
 .item {
